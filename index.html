@@ -2,64 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="x-apple-disable-message-reformatting">
   <meta name="viewport" content="width=device-width">
-  <title>Welcome to Merino</title>
-  <style>
-    /* Basic resets safe for email */
-    img{border:0;outline:none;text-decoration:none;display:block}
-    table{border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt}
-    a{color:inherit}
-    .wrapper{width:100%;background:#ffffff}
-    .container{width:600px}
-    @media only screen and (max-width:620px){
-      .container{width:100%!important}
-      .pad-sm{padding-left:16px!important;padding-right:16px!important}
-    }
-  </style>
+  <title>Welcome to Cotton Tier</title>
 </head>
-<body style="margin:0;padding:0;background:#ffffff;">
+<body style="margin:0;padding:0;background:#ffffff;font-family:Verdana, Geneva, sans-serif;">
 
-  <!-- ===== HEADER / LOGO ===== -->
-  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
-    <tr>
-      <td align="center">
-        <table role="presentation" class="container" width="600">
-          <tr>
-            <td align="left" style="padding:16px;" class="pad-sm">
-              <img src="https://link.cablemelbourne.com/custloads/794301826/md_1036939.jpg" width="180" alt="Cable Melbourne">
-            </td>
-            <td align="right" style="padding:16px 16px 16px 0;font:11px/1 Verdana, Geneva, sans-serif;color:#777;" class="pad-sm">
-              <!-- editable: recipient display -->
-              Steph
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+<!-- HEADER -->
+<table width="100%" bgcolor="#ffffff" role="presentation">
+  <tr>
+    <td align="center">
+      <table width="600" role="presentation">
+        <tr>
+          <td align="left">
+            <img src="https://link.cablemelbourne.com/custloads/794301826/md_1036939.jpg" alt="Cable Melbourne" width="143" style="display:block;">
+          </td>
+          <td align="right" style="font-size:11px;color:#777;">
+            <!-- {{ CONTACT NAME }} --> Steph (sample)
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
-  <!-- ===== TOP NAV ===== -->
-  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff" aria-hidden="true">
-    <tr>
-      <td align="center">
-        <table role="presentation" class="container" width="600">
-          <tr>
-            <td align="center" style="padding:6px 16px;font:10px/1.6 'Mr Eaves Modern', Arial, Helvetica, sans-serif;color:#001b2f;text-transform:uppercase;" class="pad-sm">
-              <!-- editable: replace # with live URLs if needed -->
-              <a href="#" style="text-decoration:none;color:#001b2f;">New Arrivals</a> &nbsp;|&nbsp;
-              <a href="#" style="text-decoration:none;color:#001b2f;">Dresses</a> &nbsp;|&nbsp;
-              <a href="#" style="text-decoration:none;color:#001b2f;">Tops</a> &nbsp;|&nbsp;
-              <a href="#" style="text-decoration:none;color:#001b2f;">Pants &amp; Shorts</a> &nbsp;|&nbsp;
-              <a href="#" style="text-decoration:none;color:#001b2f;">Knitwear</a> &nbsp;|&nbsp;
-              <a href="#" style="text-decoration:none;color:#001b2f;">Lookbook</a> &nbsp;|&nbsp;
-              <a href="#" style="text-decoration:none;color:#d42a31;">Sale</a>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+<!-- NAVIGATION -->
+<table width="100%" bgcolor="#ffffff" role="presentation">
+  <tr>
+    <td align="center">
+      <table width="600" role="presentation">
+        <tr>
+          <td align="center" style="font-size:10px;color:#001b2f;text-transform:uppercase;">
+            <a href="#" style="color:#001b2f;text-decoration:none;">New Arrivals</a> &nbsp;|&nbsp;
+            <a href="#" style="color:#001b2f;text-decoration:none;">Dresses</a> &nbsp;|&nbsp;
+            <a href="#" style="color:#001b2f;text-decoration:none;">Tops</a> &nbsp;|&nbsp;
+            <a href="#" style="color:#001b2f;text-decoration:none;">Pants & Shorts</a> &nbsp;|&nbsp;
+            <a href="#" style="color:#001b2f;text-decoration:none;">Knitwear</a> &nbsp;|&nbsp;
+            <a href="#" style="color:#001b2f;text-decoration:none;">Lookbook</a> &nbsp;|&nbsp;
+            <a href="#" style="color:#d42a31;text-decoration:none;">Sale</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- MEMBER SUMMARY -->
+<table width="100%" bgcolor="#ffffff" role="presentation">
+  <tr>
+    <td align="center">
+      <table width="600" role="presentation">
+        <tr>
+          <td align="center" style="font-size:11px;line-height:1.5;">
+            <!-- {{ MEMBER SUMMARY START }} -->
+            MEMBER TIER: Cotton &nbsp;|&nbsp; POINTS: 250 &nbsp;|&nbsp; REWARDS: $35<br>
+            SPEND TO NEXT TIER: $1,250
+            <!-- {{ MEMBER SUMMARY END }} -->
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
   <!-- ===== HERO / BANNER ===== -->
   <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
@@ -77,26 +80,6 @@
     </tr>
   </table>
 
-  <!-- ===== MEMBER SUMMARY / MERINO DUMMY DATA ===== -->
-  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
-    <tr>
-      <td align="center">
-        <table role="presentation" class="container" width="600">
-          <tr>
-            <td align="center" style="padding:18px 16px 6px;font:11px/1.5 Verdana, Geneva, sans-serif;color:#000;" class="pad-sm">
-              <!-- editable: summary fields -->
-              <strong>Member Tier:</strong> Merino &nbsp;|&nbsp;
-              <strong>Points:</strong> 1,820 &nbsp;|&nbsp;
-              <strong>Rewards:</strong> $35 &nbsp;|&nbsp;
-              <strong>Reward Threshold:</strong> $450<br>
-              <strong>Spend to Next Tier:</strong> $1,880 &nbsp;|&nbsp;
-              <strong>Rewards Expiry:</strong> 31/10/25
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
 
   <!-- ===== WELCOME COPY ===== -->
   <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
